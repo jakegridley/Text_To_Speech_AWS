@@ -10,6 +10,7 @@ function App() {
   };
 
   const handleSubmit = async (event) => {
+    console.log(text)
     event.preventDefault();
     try {
       // Replace with your API Gateway endpoint
@@ -18,6 +19,7 @@ function App() {
         headers: {
           'Content-Type': 'application/json',
         },
+        
         body: JSON.stringify({ text }),
       });
 
