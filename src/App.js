@@ -13,7 +13,7 @@ function App() {
     event.preventDefault();
     try {
       // Replace with your API Gateway endpoint
-      const response = await fetch('https://9sxpgbtnff.execute-api.us-east-1.amazonaws.com/testing_api', {
+      const response = await fetch('https://nj7ssp11vl.execute-api.us-east-1.amazonaws.com/dev', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
